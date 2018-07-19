@@ -1,0 +1,73 @@
+body {
+  background-color: #f1eff0;
+  color: #5a5a5c;
+  font-family: 'SourceSans Pro Light', Arial, Helvetica, sans-serif; }
+
+@font-face {
+  font-family: 'RougeScript Regular';
+  src: url("../font/rougescript-regular-webfont.woff2") format("woff2"), url("../font/rougescript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'SourceSans Pro Black';
+  src: url("../font/sourcesanspro-black-webfont.woff2") format("woff2"), url("../font/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'SourceSans Pro Light';
+  src: url("../font/sourcesanspro-light-webfont.woff2") format("woff2"), url("../font/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.main {
+  margin-top: 150px; }
+
+.buletan img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.tanggal {
+  margin-top: 40px;
+  font-family: 'RougeScript Regular', 'Times New Rowman', sans-serif;
+  width: 100%;
+  text-align: center; }
+
+.nama {
+  margin-top: 60px;
+  position: relative; }
+  .nama img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+  .nama .diundang {
+    position: absolute;
+    width: 100%;
+    top: 32%;
+    text-align: center; }
+    .nama .diundang h3 {
+      font-family: 'SourceSans Pro Black', Arial, Helvetica, sans-serif;
+      font-size: 1.35rem; }
+
+.konten {
+  width: 100%;
+  background-color: #FFF;
+  padding: 40px 20px;
+  margin-top: 80px;
+  text-align: center; }
+  .konten p {
+    margin-top: 25px; }
+    .konten p.min {
+      margin-top: 10px; }
+  .konten .bismillah {
+    font-family: 'RougeScript Regular', 'Times New Rowman', sans-serif;
+    color: #d16a9b; }
+  .konten .lovely {
+    font-family: 'SourceSans Pro Black', Arial, Helvetica, sans-serif;
+    color: #d16a9b;
+    font-size: 1.5rem;
+    letter-spacing: 3px; }
+  .konten .dengan {
+    font-family: 'RougeScript Regular', 'Times New Rowman', sans-serif;
+    font-size: 1.5rem; }
+
+/*# sourceMappingURL=style.css.map */
