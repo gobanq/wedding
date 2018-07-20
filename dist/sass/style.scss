@@ -2,6 +2,7 @@ body {
     background-color: #f1eff0;
     color: #5a5a5c;
     font-family: 'SourceSans Pro Light', Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
 }
 
 @font-face {
@@ -70,9 +71,17 @@ body {
     padding: 40px 20px;
     margin-top: 80px;
     text-align: center;
+    box-shadow: 0px 0px 24px #d6d6d6;
+    
+    .rogue {
+        font-family: 'RougeScript Regular', 'Times New Rowman', sans-serif;
+        font-size: 1.3rem;
+    }
 
     p {
-        margin-top: 25px;
+        margin: 25px auto;
+        max-width: 600px;
+        text-align: center;
         &.min {
             margin-top: 10px;
         }
@@ -92,5 +101,61 @@ body {
     .dengan {
         font-family: 'RougeScript Regular', 'Times New Rowman', sans-serif;
         font-size: 1.5rem;
+    }
+    .hari-h {
+        margin-top: 40px;
+        .hari {
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+        .tgl {
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            font-size: 6.4rem;
+            color: #d16a9b;
+            line-height: 0.6;
+        }
+        .bulan {
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            font-size: 1.3rem;
+            color: #d16a9b;
+            line-height: 1.7;
+        }
+        .tahun {
+            font-size: 3.5rem;
+            line-height: 0.4;
+            margin-bottom: 35px;
+        }
+        b {
+            font-family: 'SourceSans Pro Black', Arial, Helvetica, sans-serif;
+            color: #d16a9b;
+        }
+        .akad {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            .title {
+                font-family: 'RougeScript Regular', 'Times New Rowman', sans-serif;
+                color: #d16a9b;
+                font-size: 2.5rem;
+            }
+        }
+        .lokasi {
+            padding-top: 20px;
+            font-size: 1.6rem;
+        }
+    }
+    .we {
+        margin: 35px 0;
+    }
+    .ma {
+        img {
+            max-width: 100%;
+        }
+    }
+    .rum {
+        margin-top: 50px;
+    }
+    #map {
+        width: 100%;
+        height: 500px;
     }
 }
