@@ -12,4 +12,4 @@ app.get('/', function (req, res) {
     res.render(path.join(__dirname + '/index.pug'), { nama: (req.query.n ? req.query.n : 'Anda'), tempat: (req.query.t ? req.query.t : 'Di Tempat') })
 })
 
-app.listen(80, () => console.log('Example app listening on port 80!'))
+app.listen(8000, () => console.log('Example app listening on port 80!'))

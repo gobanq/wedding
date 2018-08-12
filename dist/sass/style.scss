@@ -105,23 +105,29 @@ body {
     .hari-h {
         margin-top: 40px;
         .hari {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             line-height: 1.2;
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            font-weight: 300;
         }
         .tgl {
             font-family: 'Montserrat', Arial, Helvetica, sans-serif;
             font-size: 6.4rem;
             color: #d16a9b;
             line-height: 0.6;
+            font-weight: 900;
         }
         .bulan {
             font-family: 'Montserrat', Arial, Helvetica, sans-serif;
             font-size: 1.3rem;
             color: #d16a9b;
             line-height: 1.7;
+            font-weight: 900;
         }
         .tahun {
-            font-size: 3.5rem;
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 3.2rem;
             line-height: 0.4;
             margin-bottom: 35px;
         }
@@ -153,6 +159,11 @@ body {
     }
     .rum {
         margin-top: 50px;
+    }
+    .link-map a {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: #d16a9b;
     }
     #map {
         width: 100%;
